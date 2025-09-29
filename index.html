@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mattsomy21 - Transforming Programming & Policy</title>
+    <style>
+        /* Basic Styling for the website based on the provided images */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header-banner {
+            /* Using Header1.jpg as the background image */
+            background-image: url('Header1.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .header-banner h1 {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            display: inline-block;
+            font-size: 3em;
+            margin: 0 0 10px 0;
+        }
+
+        .header-banner p {
+            font-size: 1.2em;
+            text-transform: uppercase;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        .section {
+            padding: 50px 10%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .section:nth-child(even) {
+            background-color: #f4f4f4;
+        }
+
+        .section-content {
+            flex: 1;
+        }
+
+        .section-image {
+            flex: 1;
+            max-width: 40%;
+        }
+
+        .section-image img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+
+        h3 {
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+
+        .call-to-action {
+            display: block;
+            margin-top: 15px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        
+        .who-we-are-section {
+            display: flex;
+            text-align: left;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .logo-container {
+            margin-bottom: 20px;
+            flex: 0 0 auto;
+            margin-right: 40px;
+        }
+
+        .logo-container img {
+            max-width: 200px;
+        }
+
+        .who-we-are-section .section-content {
+            flex: 2;
+        }
+
+        .what-we-do-grid {
+            display: flex;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .do-item {
+            flex: 1;
+            min-width: 280px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: white;
+        }
+
+        .do-item .image-box {
+            position: relative;
+            height: 200px;
+            overflow: hidden;
+        }
+
+        .do-item .image-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .do-item-text {
+            padding: 15px;
+            font-size: 0.9em;
+        }
+        
+        .storytelling-text { background-color: #d9534f; color: white; }
+        .data-narrative-text { background-color: #f0ad4e; color: white; }
+        .advocacy-text { background-color: #5cb85c; color: white; }
+        
+        .do-item h3 {
+            color: black;
+            text-decoration: underline;
+            padding: 15px;
+            margin: 0;
+        }
+        
+        .do-item p {
+            font-size: 0.9em;
+            color: #666;
+            padding: 0 15px 15px;
+        }
+        
+        .do-item .call-to-action {
+            margin-bottom: 15px;
+        }
+
+
+        .contact-section {
+            /* Using syntominy.jpg for background */
+            background-image: url('syntominy.jpg'); 
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 2px 5px;
+            display: inline-block;
+        }
+
+        .contact-info h2 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 15px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-banner">
+        <h1>Let data lead the way</h1>
+        <p>TRANSFORMING PROGRAMMING & POLICY FOR CHILDREN WITH DOWN SYNDROME IN SOUTH AFRICA</p>
+        <p>@mattsomy21</p>
+    </div>
+
+    <section id="who-we-are" class="section who-we-are-section">
+        <div class="logo-container">
+            <img src="matt.jpg" alt="Mattsomy21 Logo Handprint">
+        </div>
+        <div class="section-content">
+            <h2>Who we are?</h2>
+            <h3># Our Strategy</h3>
+            <p>Mattsomy21 is a dedicated initiative focused on raising awareness about Down Syndrome among children in South Africa. We achieve this through storytelling, research, and advocacy, with the goal of co-creating new narratives for children with Down Syndrome.</p>
+
+            <h3># Our Aim</h3>
+            <p>We strive to comprehend the context of Down Syndrome in South Africa by launching action research initiatives aimed at addressing critical systemic issues that impact the enhancement and well-being outcomes for children with Down Syndrome.</p>
+        </div>
+        <div class="section-image">
+             <img src="Matt2.jpg" alt="Colorful abstract painting">
+        </div>
+    </section>
+
+    <section id="what-we-do" class="section" style="display: block;">
+        <h2 style="text-align: center; margin-bottom: 40px;">What we do?</h2>
+        <div class="what-we-do-grid">
+            
+            <div class="do-item">
+                <div class="image-box">
+                    <img src="Matt6.jpg" alt="Artwork and paintbrushes">
+                </div>
+                <h3>The Power of Storytelling</h3>
+                <p>Watch this space to share your story & inspire change!</p>
+                <a href="#" class="call-to-action">#TellYourStory</a>
+                <div class="do-item-text storytelling-text">
+                    <p>Through this practice, our goal is not only to recount past experiences but to collaboratively shape new dialogues about Down Syndrome, creating a framework of shared understanding.</p>
+                </div>
+            </div>
+
+            <div class="do-item">
+                <div class="image-box">
+                    <img src="regulation.jpg" alt="Paint brushes in a container">
+                </div>
+                <h3>Shift The Narrative</h3>
+                <p>Would you like to know more about Down Syndrome, where the gaps are, and how we can support systems for parents and children? So would we!</p>
+                <a href="#" class="call-to-action">#ShiftTheNarrative</a>
+                <div class="do-item-text data-narrative-text">
+                    <p>By involving persons with Down Syndrome & their families in participatory research together with academia, civil society, health care professionals & government agencies, we can begin to address targeted interventions for children with Down Syndrome within the South African context.</p>
+                </div>
+            </div>
+
+            <div class="do-item">
+                <div class="image-box">
+                    <img src="middle.jpg" alt="Close-up of paint brushes and colorful paints">
+                </div>
+                <h3>Advocacy</h3>
+                <p>Journey with us and join the M21 Support Squad through various initiatives such as webinars, conferences and local community campaigns. Click on link below to Join now.</p>
+                <a href="#" class="call-to-action">#M21SupportSquad</a>
+                <div class="do-item-text advocacy-text">
+                    <p>Through advocacy, we can foster collaboration, facilitate knowledge sharing, address systemic issues and ensure that research initiatives are closely aligned with the needs of the DS community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="meetings" class="section">
+        <div class="section-image">
+            <img src="matt3.jpg" alt="Man wearing a black t-shirt that says 'END THE STEREOTYPE'">
+        </div>
+        <div class="section-content">
+            <h2>M21 Meetings</h2>
+            <p>Regular meetings are organized in the form of webinars, summits, conferences and virtual gatherings to support the dissemination of the latest research developed in the field of Down syndrome. Register for our first kick off meeting in July 2025 as we co-create a research agenda for children with Down Syndrome in South Africa.</p>
+            <a href="#" class="call-to-action">REGISTER & JOIN KICK OFF MEETING NOW</a>
+        </div>
+    </section>
+
+    <section id="research" class="section">
+        <div class="section-content">
+            <h2>Research</h2>
+            <h3># Addressing Data Gaps for Children with Down Syndrome in South Africa</h3>
+            <p>There is a notable lack of specific data concerning children with Down Syndrome in the South African context. Our goal is to ensure that our research initiatives are accessible and inclusive, providing valuable insights that can shape programming and policy. Through a collaborative, multi-sectoral approach, we want to connect science with everyday people and create growing narratives for case management of Down Syndrome in South Africa.</p>
+            <a href="#" class="call-to-action">JOIN A RESEARCH INIATIVE NOW</a>
+        </div>
+        <div class="section-image">
+            <img src="Matt4.jpg" alt="Person holding a marker, writing on a surface.">
+        </div>
+    </section>
+
+    <section id="resources" class="section">
+        <div class="section-image">
+            <img src="Matt5.jpg" alt="Hand painting with a brush">
+        </div>
+        <div class="section-content">
+            <h2>Resources</h2>
+            <p>If your child has recently been diagnosed with Down syndrome, you may be seeking to understand what this diagnosis means for both your child and your family. The journey of a child with Down Syndrome can be greatly enhanced by accessing a variety of resources and support systems. By leveraging these resources, we can foster inclusive environments where every child is cherished and empowered to flourish.</p>
+            <a href="#" class="call-to-action">EXPLORE RESOURCES</a>
+        </div>
+    </section>
+
+    <section id="support" class="section">
+        <div class="section-content">
+            <h2>M21 Support Squad</h2>
+            <p>Explore our M21 store through the link below and help us advance our mission of bridging science with everyday people. You can support us by making a donation, purchasing an inclusive education children's storybook, subscribing to our podcast, or becoming a champion and join the M21 Support Squad.</p>
+            <a href="#" class="call-to-action">SHOP NOW</a>
+        </div>
+        <div class="section-image">
+            <img src="matt.jpg" alt="Mattsomy21 Logo Handprint, symbolizing the support squad">
+        </div>
+    </section>
+
+    <section id="partner" class="section">
+        <div class="section-image">
+            <img src="Matt6.jpg" alt="Close-up of paint brushes and colorful paints, repeated">
+            <a href="#" class="call-to-action" style="text-align: left; margin-top: 20px;">LETS JOURNEY</a>
+        </div>
+        <div class="section-content">
+            <h2>Partner with us</h2>
+            <h3># Volunteer Opportunities</h3>
+            <p>To change the narrative and co-create new pathways for systemic transformation, collaboration is essential. Engage with academia, government, healthcare professionals, civil society, parents, individuals with lived experience, communities, and corporations. Discover how you can make a meaningful impact.</p>
+
+            <h3>## Advocacy Campaigns</h3>
+            <p>Get involved, find inspiration, and "get used to different." Identify a campaign that resonates with you and help spread kindness.</p>
+
+            <h3>## Systemic Change Agent</h3>
+            <p>Retired social workers, doctors, social and healthcare professionals, as well as graduates, can become Systemic Change Agents. Register to support families through early intervention strategies aimed at achieving better well-being outcomes for both children and their families. By offering respite care services & navigating with families to address key systemic challenges.</p>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact-section">
+        <div class="contact-info">
+            <h2>Get in touch</h2>
+        </div>
+        <div class="contact-info" style="text-align: right;">
+            <p><strong>MAILING ADDRESS</strong></p>
+            <p>Ballairs Drive, Northriding, Gauteng, SA</p>
+            <br>
+            <p><strong>EMAIL ADDRESS</strong></p>
+            <p><a href="mailto:info@mattsomy21.com" style="color: white; text-decoration: none;">info@mattsomy21.com</a></p>
+            <br>
+            <p><strong>PHONE NUMBER</strong></p>
+            <p>+27682812246</p>
+            <br>
+            <p>MATTSOMY21</p>
+        </div>
+    </footer>
+
+</body>
+</html>
